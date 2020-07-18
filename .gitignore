@@ -33,6 +33,10 @@ local.properties
 #
 .vscode/
 
+# dotenv environment variables file
+.env
+.env.test
+
 # node.js
 #
 node_modules/
