@@ -20,7 +20,7 @@ const AppRoutes: React.FC = () => {
 
   const handleLogout = useCallback(() => {
     Alert.alert(
-      `Deseja realmente sair?`,
+      'Deseja realmente sair?',
       'Será necessário fazer login novamente.',
       [
         {
