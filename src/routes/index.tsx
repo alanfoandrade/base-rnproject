@@ -16,7 +16,7 @@ const Routes: React.FC = () => {
     return <LoadingModal loading={loading} />;
   }
 
-  return user ? (
+  return !user ? (
     <Stack.Navigator>
       <Stack.Screen
         name="AppRoutes"
